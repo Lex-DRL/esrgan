@@ -15,7 +15,7 @@ net_interp = OrderedDict()
 print('Interpolating with alpha = ', alpha)
 
 for k, v_PSNR in net_PSNR.items():
-    v_ESRGAN = net_ESRGAN[k]
-    net_interp[k] = (1 - alpha) * v_PSNR + alpha * v_ESRGAN
+	v_ESRGAN = net_ESRGAN[k]
+	net_interp[k] = (1 - alpha) * v_PSNR + alpha * v_ESRGAN
 
 torch.save(net_interp, net_interp_path)
