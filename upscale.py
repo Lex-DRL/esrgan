@@ -141,7 +141,7 @@ def upscale_from_cmd_args(
 		warnings.simplefilter("ignore")
 		try:
 			_perform(torch.device('cuda'))
-		except AssertionError:
+		except (AssertionError, RuntimeError):
 			print("CUDA didn't work. Trying on CPU...")
 			_perform(torch.device('cpu'))
 

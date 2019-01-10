@@ -11,6 +11,9 @@
 None:
 "C:\Python37\python.exe" -m pip install -U pip https://download.pytorch.org/whl/cpu/torch-1.0.0-cp37-cp37m-win_amd64.whl torchvision
 
+CUDA 10:
+"C:\Python37\python.exe" -m pip install -U pip https://download.pytorch.org/whl/cu100/torch-1.0.0-cp37-cp37m-win_amd64.whl torchvision
+
 2.
 "C:\Python37\python.exe" -m pip install -U pip numpy opencv-python
 
