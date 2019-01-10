@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import torch
 
-from . import architecture as arch
+from esrgan import architecture as arch
 
 model_path = sys.argv[1]  # models/RRDB_ESRGAN_x4.pth OR models/RRDB_PSNR_x4.pth
 device = torch.device('cuda')  # if you want to run on CPU, change 'cuda' -> cpu
