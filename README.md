@@ -6,7 +6,7 @@ By Xintao Wang, [Ke Yu](https://yuke93.github.io/), Shixiang Wu, [Jinjin Gu](htt
 This repo only provides simple testing codes, pretrained models and the network strategy demo. 
 
 Comment by [Lex-DRL](https://github.com/Lex-DRL):
-I only reworked the main wrapper script, to make it a bit more user-friendly, the rest of the git repo is just a clone of [the original work](https://github.com/xinntao/ESRGAN) by the above authors^.
+> I only reworked the main wrapper script to make it a bit more user-friendly. The rest of the git repo is just a clone of [the original work](https://github.com/xinntao/ESRGAN) by the above authors^.
 
 
 ### **For full training and testing codes, please refer to  [BasicSR](https://github.com/xinntao/BasicSR).**
