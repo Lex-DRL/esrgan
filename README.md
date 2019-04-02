@@ -1,12 +1,12 @@
-# A slightly reworked wrapper for [[ESRGAN]](https://github.com/xinntao/ESRGAN) (Enhanced SRGAN) [[Paper]](https://arxiv.org/abs/1809.00219) [[BasicSR]](https://github.com/xinntao/BasicSR) 
+# A slightly reworked wrapper for [ESRGAN](https://github.com/xinntao/ESRGAN) (Enhanced SRGAN) [[Paper]](https://arxiv.org/abs/1809.00219) [[BasicSR]](https://github.com/xinntao/BasicSR) 
 ## :smiley: Training codes are in [BasicSR](https://github.com/xinntao/BasicSR) repo.
 ### Enhanced Super-Resolution Generative Adversarial Networks
 By Xintao Wang, [Ke Yu](https://yuke93.github.io/), Shixiang Wu, [Jinjin Gu](http://www.jasongt.com/), Yihao Liu, [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ&hl=en), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)
 
 This repo only provides simple testing codes, pretrained models and the network strategy demo. 
 
-from [[DRL]](https://github.com/Lex-DRL):
-I only reworked the main wrapper script, to make it a bit more user-friendly, the rest of the git repo is just a clone of [[the original work]](https://github.com/xinntao/ESRGAN) by the above authors^.
+Comment by [Lex-DRL](https://github.com/Lex-DRL):
+I only reworked the main wrapper script, to make it a bit more user-friendly, the rest of the git repo is just a clone of [the original work](https://github.com/xinntao/ESRGAN) by the above authors^.
 
 
 ### **For full training and testing codes, please refer to  [BasicSR](https://github.com/xinntao/BasicSR).**
